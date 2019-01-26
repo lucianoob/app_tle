@@ -1,0 +1,36 @@
+#video_background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.1;
+}
+
+.navbar-tle {
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav-link {
+    padding-left: 4rem !important;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px !important;
+}
+
+.card {
+    opacity: 0.9;
+    border-radius: 20px !important;
+}
