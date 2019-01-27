@@ -1,5 +1,6 @@
 <?php
 
+use App\User;
 use Illuminate\Database\Seeder;
 
 class UsersTableSeeder extends Seeder
@@ -11,8 +12,8 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        $User = DB::table('users')->where('email', 'User@gmail.com')->exists();
-        if(!$User)
+        $user1 = DB::table('users')->where('email', 'User@gmail.com')->exists();
+        if(!$user1)
         {
             User::create([
                 'id'    => 1,
