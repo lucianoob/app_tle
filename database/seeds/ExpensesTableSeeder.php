@@ -19,7 +19,8 @@ class ExpensesTableSeeder extends Seeder
               'id'    => 1,
               'user_id'    => 1,
               'description'    => 'Expenses with food at work.',
-              'date'    => date("Y-m-d H:i:s"),
+              'date'    => date("Y-m-d"),
+              'time'    => date("H:i"),
               'price'   =>  220.34,
               'tags' =>  'work food',
           ]);
@@ -31,7 +32,8 @@ class ExpensesTableSeeder extends Seeder
               'id'    => 2,
               'user_id'    => 2,
               'description'    => 'Fuel costs.',
-              'date'    => date("Y-m-d H:i:s"),
+              'date'    => date("Y-m-d"),
+              'time'    => date("H:i"),
               'price'   => 510.25,
               'tags' =>  'car fuel',
           ]);

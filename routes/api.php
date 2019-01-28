@@ -23,5 +23,6 @@ Route::group(array('prefix' => '/'), function() {
       	return response()->json(['message' => 'Expenses API', 'status' => 'Connected']);;
   	});
 
-  	Route::resource('expense', 'ExpenseController');
+  	Route::resource('expenses', 'ApiExpenseController');
+    Route::get('expenses/user/{id}', 'ApiExpenseController@index_user')->name('expenses.user');
 });

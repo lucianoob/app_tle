@@ -30,7 +30,35 @@
     border-radius: 20px 20px 0px 0px !important;
 }
 
+.modal-header {
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    border-radius: 19px 19px 0px 0px !important;
+}
+
+.modal-content {
+    border-radius: 20px !important;
+}
+
 .card {
     opacity: 0.9;
     border-radius: 20px !important;
+}
+
+.brand-subtitle {
+    font-size: 10px;
+    font-style: italic;
+    color: #b9b6b6;
+}
+
+.datatable-row_selected {
+    background-color: #8a8a8a !important;
+}
+
+#tblExpenses tbody tr {
+    cursor: pointer;
 }

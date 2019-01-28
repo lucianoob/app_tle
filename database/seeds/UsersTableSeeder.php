@@ -12,7 +12,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        $user1 = DB::table('users')->where('email', 'User@gmail.com')->exists();
+        $user1 = DB::table('users')->where('email', 'user1@gmail.com')->exists();
         if(!$user1)
         {
             User::create([

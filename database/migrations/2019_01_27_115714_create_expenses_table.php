@@ -22,7 +22,8 @@ class CreateExpensesTable extends Migration
                   ->on('users')
                   ->onDelete('cascade');
               $table->string('description');
-              $table->datetime('date');
+              $table->date('date');
+              $table->string('time');
               $table->decimal('price', 6, 2);
               $table->string('tags');
               $table->timestamps();
