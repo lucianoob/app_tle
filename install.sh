@@ -3,6 +3,9 @@
 
 echo -e "\n### Install App TLE Project ###"
 
+echo -e "\n### Composer Install ###"
+composer install
+
 echo -e "\n# Start services (Apache/MySQL)"
 sudo service apache2 start
 sudo service mysql start
